@@ -508,7 +508,7 @@ a{
 }
 
 .skills-logo{
-  width:90px;
+  width:70px;
   transition:all 0.5s;
 }
 
@@ -604,6 +604,10 @@ a{
   padding:0 1rem;
   font-size:1.5rem;
 }
+.bar{
+  display: none;
+ 
+}
 /* Media quires for mobile and tablets */
 @media (max-width:800px)
 {
@@ -622,18 +626,39 @@ a{
     }
     .nav-items
     {
+      display: none;
+    }
+    .bar{
       display: flex;
-      flex-direction: column;
+      width: 25rem;
+      border-radius: 25%;
+      height: 0.3rem;
+      background-color: red;
+     
     }
     .hero-section{
+      /* top:30px; */
         position:relative;
         display:flex;
+        flex-wrap: wrap;
         flex-direction: column;
+        justify-self: start;
         gap: 5rem;
-        left:-300px;
+        font-size: small;
+        left: -450px;
         margin: auto;
-        max-width: 500px;
+        max-width: 250px;
     }
+    .hero-section-left{
+      /* width:100%; */
+      display: flex;
+      font-size: medium;
+      flex-wrap: wrap;
+      left: -100px;
+      flex-drection: column;
+      justify-content:center;
+      gap: 2rem;
+  }
     .faded-text
     {
         display: none;
@@ -703,8 +728,10 @@ a{
     .skills-container{
       position:relative;
       display:flex;
+  
       flex-direction: column;
       padding:3rem;
+      left:-15px;
       margin:10rem auto;
       gap:30px;
     }
@@ -712,19 +739,22 @@ a{
       position:relative;
       display:flex;
       flex-direction: column;
-      left:-350px;
-        margin: auto;
-        max-width: 500px;
+      left:-450px;
+      margin: auto;
+      max-width: 350px;
 
     }
     .skill-container-right{
       display:flex;
       flex-wrap:wrap;
-      width:30%;
+      width:20%;
       height: 25%;
       position:relative;
       gap:2rem;
       justify-content: center;
     }
-  
+    .skills-logo{
+      width:35px;
+      transition:all 0.5s;
+    }
   }

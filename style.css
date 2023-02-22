@@ -702,6 +702,10 @@ footer{
   {
    display: none;
   }
+  .nav-items
+    {
+      display: none;
+    }
   /* .user-image{
     padding:2.5rem;
     filter:grayscale(1);
@@ -759,10 +763,7 @@ footer{
       justify-content:flex-start;
       align-items:flex-start;
     }
-    .nav-items
-    {
-      display: none;
-    }
+    
     .bar{
       display: flex;
       width: 25rem;

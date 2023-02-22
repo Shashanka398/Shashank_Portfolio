@@ -768,7 +768,7 @@ footer{
       gap: 60px;
     }
     .project-card {
-      width: 100%;
+      width: 600px;
       height: 300px;
     }
     .project-card {
@@ -786,12 +786,12 @@ footer{
       left: 0;
     }
     .project-heading {
-      font-size: 20px;
+      font-size: 35px;
       font:bold;
       width: 100%;
     }
     .project-sub-heading {
-      font-size: 20px;
+      font-size: 25px;
       width: 100%;
     }
     #project2 {

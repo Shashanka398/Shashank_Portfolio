@@ -320,7 +320,7 @@ a{
     position: relative;
     width:90%;
     height: 550px;
-    background-image: url(./images/projects/Project2.png);
+    background-image: url(./images/projects/Project2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 40px #1f1f1f;
@@ -417,7 +417,7 @@ a{
 }
 .project-heading
 {
-    font-size:50px;
+    font-size:35px;
     font-weight: bold;
     line-height: 3rem;
 }
@@ -458,11 +458,12 @@ a{
 }
 #project2
 { margin-left:120px ;
-    background-image: url(./images/projects/Project1.png);
+  background-image: url(./images/projects/maxresdefault.jpg);
 }
 #project3
 { margin-right:120px ;
-    background-image: url(./images/projects/Project3.png);
+
+    background-image: url(./images/projects/voice-assistant-concept-vector-sound-wave-recognition-equalizer-flow-background-personal-gradient-illustration-193848415.jpg);
 }
 
   .skills-container{

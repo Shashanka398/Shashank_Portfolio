@@ -689,6 +689,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap:1rem;
+    margin-left:100px;
     padding:1.2rem;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -697,6 +698,9 @@ footer{
   {
     display: none;
   }
+
+
+
     .navbar{
       margin: auto;
       display: flex;

@@ -776,11 +776,12 @@ footer{
         position:relative;
         display:flex;
         flex-direction: column;
-        justify-self: start;
-        gap: 5rem;
+        justify-items: start;
+        justify-content: space-between;
+        align-items: s;
         font-size: small;
         left: -450px;
-        margin: auto;
+        margin: 10px auto;
         max-width: 250px;
     }
     .faded-text{
@@ -802,6 +803,10 @@ footer{
       flex-direction: column;
       justify-content:center;
       gap: 2rem;
+  }
+  .hero-section-sub-heading ,.hero-section-description
+  {
+    margin-top: -20px;
   }
     .faded-text
     {

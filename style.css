@@ -685,6 +685,24 @@ footer{
 }
 
 @media (max-width:1000px) {
+
+  .hero-section-heading{
+    font-size: 25px;
+    color: #343d68;
+    font-weight: 300;
+}
+
+.role{
+    color: #4e45d5;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.hero-section-sub-heading{
+    font-size: 25px;
+    line-height: 45px;
+}
+
   .footer-wrapper
   {
     display: flex;

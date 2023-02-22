@@ -798,6 +798,8 @@ footer{
     position: absolute;
     flex-direction: column;
     color: white;
+    width: 600px;
+    left:-60px;
     padding: 1rem;
     bottom:20%;
     z-index:5;

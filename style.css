@@ -779,14 +779,31 @@ footer{
     .project-content {
       scale: 0.5;
       bottom: 0;
-    
-      left: -20px;
+      
+      left: -50px;
       right: 0;
       top: -10px;
     }
-    .project-content-left {
-      left: 0;
+    .project-content-left
+    {
+      left:0;
     }
+    .project-content-right
+    {
+      right:0;
+    }
+    .project-content
+  {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+    bottom:20%;
+    z-index:5;
+    gap:1em;
+    transition: all 0.4s;
+  }
     .project-heading {
       font-size: 35px;
       font:bold;

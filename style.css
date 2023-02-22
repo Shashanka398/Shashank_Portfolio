@@ -729,15 +729,9 @@ footer{
 }
 .hero-section{
   position:relative;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
   margin: 4rem auto;
   padding: 0 1rem;
   padding-bottom: 5rem;
-
-  position:relative;
   display:flex;
   flex-direction: column;
   justify-self: start;
@@ -903,11 +897,10 @@ footer{
       position:relative;
       display:flex;
       flex-direction: column;
-      
       padding:2rem;
-
-      margin:10rem auto;
-      gap:30px;
+      margin:6rem auto;
+      height: 780px;
+      gap:10px;
     }
     .skill-container-left{
       position:relative;

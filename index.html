@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="./images/userAsset/favicon.ico">
     <title>Portfolio Website</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
             </div>
 
             <div class="nav-items">
-                <div><a href="#project2">Projects</a></div>
+                <div><a href="#project-direction">Projects</a></div>
                 <div><a href="#skills">Skills</a></div>
                 <div><a href="#Contact">Contact</a></div>
                 <!-- <div><a href="#projects">Contact Me</a></div> -->
@@ -35,14 +36,14 @@
                 <div class="faded-text">Shashank</div>
                 <!-- Left Section -->
                 <div class="hero-section-left">
-                <div class="hero-section-heading">Hi! Shashank</div>
+                <div class="hero-section-heading">Hi! </div>
                 <div class=" hero-section-heading hero-section-sub-heading">
                     I am <span class="role"></span>
                 </div>
 
                 <div class="hero-section-description">
-                    I’m a software developer and here is my portfolio website.
-                     Here you’ll learn about my journey as a software developer.
+                  I am currently in my final year of an information science engineering degree at NMAMIT. As an aspiring software engineer, I have created a portfolio website 
+                  that demonstrates my expertise and enthusiasm for software development.
                 </div>
 
                 <div class="btn-pink" id="btn" onclick="window.location.href = 'https://www.linkedin.com/in/shashank-b-721545179/';" >Hire Me</div>
@@ -65,14 +66,14 @@
                         <img src="./images/userAsset/plus.png" alt="" />
                       </div>
                       <div class="user-image">
-                        <img src="./images/userAsset/UserImage (2).png" alt="" />
+                        <img src="./images/userAsset/User.png" alt="" />
                       </div>
                  </div>
                  
             </div>
         </div>
         <!-- Project Section (We want full width so not keeping under container) -->
-        <div class="project-section">
+        <div class="project-section" id= "project-direction">
             <h2 class="page-header">Projects</h2>
             <!-- Project Container -->
             <div class="project-container">
@@ -181,19 +182,26 @@
             My stacks</h2>
             <div class="skill-subHeading">
               <p>
-                &nbsp &nbsp  I have technical skills in a variety of programming languages, including C++, SQL, HTML, CSS, JavaScript, 
-                Vb.Net, and Python, as well as knowledge in Linux, Data Structures, Operating Systems, Computer Networks, and Docker.
+                &nbsp &nbsp      I am proficient in a number of computer languages, including C++, SQL, HTML, CSS, 
+                JavaScript, Vb.Net, and Python, as well as Linux, Data Structures, Operating Systems, Computer Networks, and Docker.
+
+            
+
+
+
+
 
               </p>
               <p>
-                &nbsp &nbspI completed a Software Engineering Internship, where I helped to develop the front-end of a company website using CSS, HTML, and JavaScript,
-                 and created the front-end for a billing system using Vb.Net Framework and stored data using MySQL.
+                &nbsp &nbsp
+                I did a Software Engineering Internship in which I
+                 assisted in the development of the front-end of a company website using CSS, HTML, 
+                 and JavaScript, as well as in the development of a billing system using Vb.Net Framework and the storage of data using MySQL.
 
               </p>
               <p>
-                &nbsp &nbsp  Additionally, I completed several courses and certifications, including Big Data
-                 Machine Learning Techniques Using Spark, Certificate of Excellence in Data Structure in C++, and Big Data Essentials: HDFS, MapReduce, and Spark RDD.
-
+                &nbsp &nbsp  In addition, I finished Big Data Machine Learning Methods Using Spark,
+                Certificate of Excellence in Data Structure in C++, and Big Data Essentials: HDFS, MapReduce, and Spark RDD.
               </p>
            
               
@@ -297,7 +305,7 @@
               </div>
               <div class="link-wrapper">
                 <div>
-                  <a href="#projects2">Projects</a>
+                  <a href="#project-direction">Projects</a>
                 </div>
                 <div>
                   <a href="#skills">Skills</a>
@@ -309,8 +317,9 @@
               <div class="icon-wrapper">
                 <i class="fa-brands fa-linkedin icon" onclick="window.location.href = 'https://www.linkedin.com/in/shashank-b-721545179/';"></i>
                 <i class="fa-brands fa-github icon" onclick="window.location.href = 'https://github.com/Shashanka398';"></i>
-                <i class="fa-brands fa-whatsapp icon" onclick="window.location.href = ' https://wa.me/16362831192';"></i>
-               
+                <i class="fa-regular fa-envelope icon" onclick="window.location.href = ' mailto:shashank398@gmail.com';"></i>
+                <i class="fa-brands fa-whatsapp icon" onclick="window.location.href = ' https://wa.me/+916362831192';"></i>
+                
               </div>
             </div>
           </div>
@@ -322,12 +331,10 @@
   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
   <script>
     var typeData = new Typed(".role", {
-      strings: [
+      strings: [ "Programmer",
         "Full Stack Developer",
-        "Web Developer",
-        "UI-UX Designer",
-        "Backend Developer",
-        "Coder",
+        "Web developer",
+       
       ],
       loop: true,
       typeSpeed: 100,

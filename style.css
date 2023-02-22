@@ -320,7 +320,7 @@ a{
     position: relative;
     width:90%;
     height: 550px;
-    background-image: url(./images/projects/Project2.jpg);
+    background-image: url(./images/projects/CollegeManagement.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 40px #1f1f1f;
@@ -359,9 +359,10 @@ a{
   .project-number
   {
     position: absolute;
-    font-size: 200px;
+    font-size: 150px;
     font-weight: 600;
     color: white;
+    opacity: 75%;
     z-index: 10;
     display: none;
 
@@ -458,12 +459,12 @@ a{
 }
 #project2
 { margin-left:120px ;
-  background-image: url(./images/projects/maxresdefault.jpg);
+  background-image: url(./images/projects/GeaphicalUser.jpg);
 }
 #project3
 { margin-right:120px ;
 
-    background-image: url(./images/projects/voice-assistant-concept-vector-sound-wave-recognition-equalizer-flow-background-personal-gradient-illustration-193848415.jpg);
+    background-image: url(./images/projects/VoiceAssist.jpg);
 }
 
   .skills-container{

@@ -630,6 +630,17 @@ a{
   {
    display: none;
   }
+  /* .user-image{
+    padding:2.5rem;
+    filter:grayscale(1);
+    transition:all 1s;
+    animation: scaleImage 5s linear infinite;
+  }
+
+  .user-image img{
+   width: 100px; 
+    z-index:-9;
+  } */
 }
 footer{
   position: relative;
@@ -684,7 +695,25 @@ footer{
   transform: scale(1);
   color: var(--bgOrange);
 }
+/* Media quires for mobile and tablets */
+@media (max-width:800px)
+{
+  .hero-section-right
+  {
+   display: none;
+  }
+  /* .user-image{
+    padding:2.5rem;
+    filter:grayscale(1);
+    transition:all 1s;
+    animation: scaleImage 5s linear infinite;
+  }
 
+  .user-image img{
+   width: 100px; 
+    z-index:-9;
+  } */
+}
 @media (max-width:1000px) {
 
   .hero-section-heading{
@@ -698,27 +727,35 @@ footer{
     font-size: 15px;
     font-weight: 800;
 }
+.hero-section{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  padding-bottom: 5rem;
 
+  position:relative;
+  display:flex;
+  flex-direction: column;
+  justify-self: start;
+  gap: 5rem;
+  font-size: small;
+  left: -450px;
+  max-width: 250px;
+}
 .hero-section-sub-heading{
     font-size: 25px;
     line-height: 45px;
 }
 
-  .footer-wrapper
-  {
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
-    margin-left:50px;
-    padding:1.2rem;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
-  .footer-faded-text
-  {
-    display: none;
-  }
-
+.hero-section-description{
+  margin-top: 1rem;
+  width: 130%;
+  font-weight: 500;
+}
 
 
     .navbar{
@@ -744,7 +781,6 @@ footer{
       /* top:30px; */
         position:relative;
         display:flex;
-        flex-wrap: wrap;
         flex-direction: column;
         justify-self: start;
         gap: 5rem;
@@ -753,6 +789,16 @@ footer{
         margin: auto;
         max-width: 250px;
     }
+    .faded-text{
+      position:absolute;
+      user-select:none;
+      font-size: 6em;
+      color:rgb(231,231,231);
+      bottom: -20%;
+      left: -5%;
+      font-weight: bold;
+      transition: all 3s;
+  }
     .hero-section-left{
       /* width:100%; */
       display: flex;
@@ -890,5 +936,19 @@ footer{
       transition:all 0.5s;
     }
     
-   
+    .footer-wrapper
+    {
+      display: flex;
+      flex-direction: column;
+      gap:1rem;
+      margin-left:50px;
+      padding:1.2rem;
+      justify-content: space-evenly;
+      align-items: flex-start;
+    }
+    .footer-faded-text
+    {
+      display: none;
+    }
+  
   }

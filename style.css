@@ -897,8 +897,18 @@ footer{
     .project-skill {
       width: 35px;
     }
-    .project-card:hover .project-number {
-      display: none;
+    .project-number  {
+      font-size: 45px;
+    }
+    .project-number-left
+    {
+      right:-10px;
+      top:-15px;
+    }
+    .project-number-right
+    {
+      left:-10px;
+      top:-15px;
     }
     .project-card:hover .project-content {
       scale: 0.55;

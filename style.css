@@ -370,9 +370,12 @@ a{
   .project-card:hover .project-number
 
   {
-    transition: 0.8s;
+    transition: 1s;
     display: block;
 
+  }
+  .project-card:hover .project-content {
+    scale: 1.1;
   }
   .project-number-left
   {
@@ -402,7 +405,7 @@ a{
   }
   .project-content-right
   {
-    right:10%
+    right:20%
   }
   .project-skills-container
   {
@@ -453,9 +456,10 @@ a{
     font-size: 35px;
 }
 
-.project-card:hover.project-content
-{  
-    transform: scaleX(1.1);
+
+.project-content:hover
+{
+  transform: scaleX(1);
 }
 #project2
 { margin-left:120px ;

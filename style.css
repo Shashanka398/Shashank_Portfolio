@@ -466,9 +466,24 @@ a{
   background-image: url(./images/projects/GeaphicalUser.jpg);
 }
 #project3
-{ margin-right:120px ;
+{ margin-left:120px ;
 
     background-image: url(./images/projects/VoiceAssist.jpg);
+}
+#project4
+{ margin-right:120px ;
+
+    background-image: url(./images/projects/WeatherApp.jpg);
+}
+#project5
+{ margin-right:120px ;
+
+    background-image: url(./images/projects/RandomPass.jpg);
+}
+#project6
+{ margin-left:120px ;
+
+    background-image: url(./images/projects/TicTacToe.jpg);
 }
 
   .skills-container{

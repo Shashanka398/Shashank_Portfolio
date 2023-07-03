@@ -468,7 +468,7 @@ a{
 #project3
 { margin-left:120px ;
 
-    background-image: url(./images/projects/VoiceAssist.jpg);
+    background-image: url(./images/projects/qtripDynamic.jpg);
 }
 #project4
 { margin-right:120px ;
@@ -903,7 +903,16 @@ footer{
     #project2 {
       margin-left: 0;
     }
+    #project3 {
+      margin-left: 0;
+    }
     #project4 {
+      margin-left: 0;
+    }
+    #project5 {
+      margin-left: 0;
+    }
+    #project6 {
       margin-left: 0;
     }
     .project-skill-container {
